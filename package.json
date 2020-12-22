@@ -3,7 +3,13 @@
 	"version": "0.1.0",
 	"description": "PM2 logger module",
 	"main": "app.js",
-	"dependencies": {},
+	"dependencies": {
+		"ip": "^1.1.5",
+		"lodash": "^4.17.20",
+		"logzio-nodejs": "^2.0.2",
+		"pm2": "^4.5.1",
+		"pmx": "^0.5.9"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/fortil/pm2-logger-modulex.git"
@@ -22,12 +28,5 @@
 		}
 	],
 	"author": "William Penagos <billalpeza@gmail.com>",
-	"license": "MIT",
-	"devDependencies": {
-		"ip": "^1.1.5",
-		"lodash": "^4.17.20",
-		"logzio-nodejs": "^2.0.2",
-		"pm2": "^4.5.1",
-		"pmx": "^0.5.0"
-	}
+	"license": "MIT"
 }
