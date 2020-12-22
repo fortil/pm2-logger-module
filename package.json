@@ -1,0 +1,33 @@
+{
+	"name": "pm2-logger-module",
+	"version": "0.1.0",
+	"description": "PM2 logger module",
+	"main": "app.js",
+	"dependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fortil/pm2-logger-modulex.git"
+	},
+	"config": {
+		"api_token": "",
+		"env_key_name": "env",
+		"default_env": "dev",
+		"log_string_as_message": true
+	},
+	"apps": [
+		{
+			"merge_logs": true,
+			"max_memory_restart": "200M",
+			"script": "app.js"
+		}
+	],
+	"author": "William Penagos <billalpeza@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"ip": "^1.1.5",
+		"lodash": "^4.17.20",
+		"logzio-nodejs": "^2.0.2",
+		"pm2": "^4.5.1",
+		"pmx": "^0.5.0"
+	}
+}
